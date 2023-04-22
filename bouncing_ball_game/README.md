@@ -39,3 +39,6 @@ First I want a canvas and a bouncing ball inside the canvas. Can you help me cre
 -> chatGPT will help you combine the code.
 - continue
 -> if chatGPT stops in the middle of providing codes, then just type continue.
+
+
+THANK YOU FOR READING.
