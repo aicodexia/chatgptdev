@@ -121,6 +121,7 @@ label {
 	font-size: 14px;
 	margin-top: 5px;
 }
+
 .remember-me {
     font-size: 12px;
     display: flex;
@@ -136,36 +137,34 @@ label {
     border-bottom: none;
 }
 
-  .remember-me label {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    top: -2px; /* adjust this value to move the label up or down */
-    left: -5px; /* adjust this value to move the label left or right */
-  }
+.remember-me label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  top: -2px; /* adjust this value to move the label up or down */
+  left: -5px; /* adjust this value to move the label left or right */
+}
   
-  input[type=checkbox] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #b3b3b3;
-    border-radius: 2px;
-    outline: none;
-    position: relative;
-    background-color: #b3b3b3;
-    margin-right: 5px; /* added right margin */
-  }
+input[type=checkbox] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #b3b3b3;
+  border-radius: 2px;
+  outline: none;
+  position: relative;
+  background-color: #b3b3b3;
+  margin-right: 5px; /* added right margin */
+}
   
-  input[type=checkbox]:checked:after {
-    content: '\2714';
-    font-size: 16px;
-    color: #000;
-    position: absolute;
-    top: 2px;
-    left: 4px;
-  }
+input[type=checkbox]:checked:after {
+  content: '\2714';
+  font-size: 16px;
+  color: #000;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+}
 
 .captcha-info {
     display: flex;
@@ -218,6 +217,6 @@ footer {
     color: gray;
     font-size: 13px;
     text-decoration: none;
-  }
+}
   
   
